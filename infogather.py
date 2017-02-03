@@ -21,6 +21,7 @@ Press  3  To  check my System OS Type  :
 Press  4  To  check my System OS version   :  
 Press  5  To  check my system Configuration   : 
 Press  6  To  check  About A particular IP : 
+Press   7 To list  all IP in Your Present Network : 
 """
 
 print  x
@@ -39,6 +40,9 @@ elif  ch  ==  3 :
 
 elif  ch  ==   6 :
 	execfile('checkiplive.py')
+
+elif  ch  ==   7  :
+	execfile('listallip.py')
 else :
 	print   "execute me !!"
 

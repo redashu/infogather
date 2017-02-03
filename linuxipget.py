@@ -23,6 +23,10 @@ y=x.split('inet')[1]
 
 ip_address=y.split()[0]
 
+f=open('myipaddr.txt','w')
+f.write(ip_address)
+f.close()
+
 
 print   "Your  IP Address of  Give  Lan card  " +lan+ " is  :  ",ip_address
 

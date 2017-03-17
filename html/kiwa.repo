@@ -1,0 +1,12 @@
+[ad]
+baseurl=ftp://192.168.1.254/pub/packages/rhel7_2/
+gpgcheck=0
+
+[hoc]
+baseurl=ftp://192.168.1.254/pub/packages/rhel7rpm/
+gpgcheck=0
+
+
+[docker]
+baseurl=ftp://192.168.1.254/pub/packages/rhel7extra/
+gpgcheck=0
